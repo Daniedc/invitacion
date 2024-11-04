@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Invitación</title>
+</head>
+
+<body>
+    <div id="inicio">
+        <img src="img/sobre_Mesa de trabajo 1.png" alt="sobre" id="sobre">
+    </div>
+
+    <div id="formulario" style="display: none;">
+        <h2>Ingrese sus datos</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" required>
+        <button onclick="mostrarInvitacion()">Aceptar</button>
+    </div>
+
+    <div id="invitacion" style="display: none;">
+        <p id="textoInvitacion"></p>
+        <a href="https://wa.me/540111521882993" target="_blank">
+            <img src="img/whatsapp-02.png" alt="whatsapp" id="whatsappIcon">
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
